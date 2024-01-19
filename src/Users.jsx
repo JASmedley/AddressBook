@@ -32,7 +32,7 @@ class Users extends React.Component {
   render() {
     console.log('In render');
     return (
-      <ul className="beers">
+      <ul className="addressBook">
         {this.state.theAddresses.map((users, index) => {
          return <User firstname={users.name.first} lastname={users.name.last} photo={users.picture.thumbnail} email={users.email} phone={users.phone} age={users.dob.age} streetNumber={users.location.street.number} streetName={users.location.street.name} city={users.location.city} state={users.location.state} postcode = {users.location.postcode}/>
         })}

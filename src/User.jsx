@@ -29,7 +29,7 @@ function User(props) {
   }
 
   return (
-  <li  className="beer"> 
+  <li  className="users"> 
         <h2 >{props.firstname} {props.lastname}</h2>
         <img src={props.photo}></img>
         <br></br>
